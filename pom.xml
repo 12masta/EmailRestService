@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ms.emailrestservice</groupId>
-    <artifactId>service</artifactId>
+    <artifactId>emailrestservice</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <parent>
-        <groupId>com.ms.emailrestservice</groupId>
-        <artifactId>emailrestservice</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.7.RELEASE</version>
     </parent>
 
     <properties>
@@ -41,5 +41,5 @@
             </plugin>
         </plugins>
     </build>
-
+    
 </project>
