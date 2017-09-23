@@ -7,6 +7,7 @@
     <groupId>com.ms.emailrestservice</groupId>
     <artifactId>emailrestservice</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -14,8 +15,13 @@
         <version>1.5.7.RELEASE</version>
     </parent>
 
+    <modules>
+        <module>service</module>
+    </modules>
+
     <properties>
         <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
@@ -41,5 +47,4 @@
             </plugin>
         </plugins>
     </build>
-    
 </project>
