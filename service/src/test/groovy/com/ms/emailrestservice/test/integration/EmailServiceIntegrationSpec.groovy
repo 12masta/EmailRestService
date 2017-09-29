@@ -1,15 +1,11 @@
 package com.ms.emailrestservice.test.integration
 
 import com.ms.emailrestservice.Application
-import com.ms.emailrestservice.controllers.GreetingController
 import com.ms.emailrestservice.test.EmailServiceSpecification
 import okhttp3.Request
 import okhttp3.Response
-import org.junit.runner.RunWith
-import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.test.context.ContextConfiguration
-import org.springframework.test.context.junit4.SpringRunner
 
 @ContextConfiguration
 @SpringBootTest(classes = Application.class)
